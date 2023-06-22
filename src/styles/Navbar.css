@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  position: absolute;
+  bottom: 87%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: antiquewhite;
+}
+.navbar img {
+  position: relative;
+  right: 25%;
+  width: 6%;
+  border-radius: 50%;
+}
+.navbar .rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color:black;
+  text-decoration: none;
+  margin: 20px;
+}
+.navbar a:hover {
+  color: rgb(159, 137, 137);
+}
+
+
+
